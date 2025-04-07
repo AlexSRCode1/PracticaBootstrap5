@@ -30,6 +30,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="crearEstudiante.php">Registro Estudiante</a></li>
                   <li><a class="dropdown-item" href="estudiante.php">Lista estudiante</a></li>
+                  <li><a class="dropdown-item" href="formulario.php">Registro de Productos</a></li>
                   <li><hr class="dropdown-divider"></li>  
                 </ul>
               </li>
