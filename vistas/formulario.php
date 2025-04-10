@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Registro de Productos</title>
 
-    <?php include "referencias.php"; ?>
+
+    <?php
+    // require_once"referencias.php";
+    include "menu.php";
+    ?>
+
+
 </head>
 <body>
 
@@ -16,13 +22,13 @@
 
 
             <div class="mb-3">
-                <label for="producto" class="form-label">Producto:</label>
+                <label for="producto" class="form-label">Nombre del Producto:</label>
                 <input type="text" id="producto" name="producto" class="form-control" required>
             </div>
 
             <div class="mb-3">
                 <label for="descripcion" class="form-label">Descripción:</label>
-                <input type="text" id="descripcion" name="descripcion" class="form-control" required>
+                <textarea type="text" id="descripcion" name="descripcion" class="form-control" required></textarea>
             </div>
 
             <div class="mb-3">
