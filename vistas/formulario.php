@@ -18,7 +18,7 @@
 <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="col-md-6">
         <h2 class="text-center">Formulario de Registro de Productos</h2>
-        <form method="POST" action="../controladores/crearFormulario.php" class="form-group">
+        <form method="POST" action="../vistas/listaProductos.php" class="form-group">
 
 
             <div class="mb-3">
@@ -32,8 +32,8 @@
             </div>
 
             <div class="mb-3">
-                <label for="fecha_ingreso" class="form-label">Fecha de Ingreso:</label>
-                <input type="date" id="fecha_ingreso" name="fecha_ingreso" class="form-control" required>
+                <label for="fecha_ingreso" class="form-label">Fecha de Registro:</label>
+                <input type="date" id="fecha_registro" name="fecha_registro" class="form-control" required>
             </div>
 
             <div class="mb-3">
@@ -55,7 +55,7 @@
 
             <div class="formulario-group">    
                         <!-- <input class="btn btn-primary" value="Guardar" type="button"> -->
-                        <button class="btn btn-primary w-100 type="submit"> Guardar </button>
+                        <button class="btn btn-primary w-100 name="add_prod" type="submit"> Guardar </button>
 
                     </div>
 

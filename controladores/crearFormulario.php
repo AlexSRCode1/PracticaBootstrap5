@@ -11,13 +11,13 @@ include('../modelos/conexion.php'); // Asegúrate de que la ruta sea correcta
 
     $prod = $_POST['producto'];
     $descrip = $_POST['descripcion'];
-    $fecha = $_POST['fecha_ingreso'];
+    $fecha = $_POST['fecha_registro'];
     $cant = $_POST['cantidad'];
     $cost = $_POST['costo'];
     $code = $_POST['codigo_barras'];
 
     // Preparar la consulta SQL
-    $query = "INSERT INTO productos (Producto, Descripcion, Fecha_Ingreso, Cantidad, Costo, Codigo_Barras)
+    $query = "INSERT INTO productos (Producto, Descripcion, Fecha_Registro, Cantidad, Costo, Codigo_Barras)
               VALUES ('$prod', '$descrip', '$fecha', '$cant', '$cost', '$code')";
 
     // Ejecutar la consulta
@@ -25,7 +25,10 @@ include('../modelos/conexion.php'); // Asegúrate de que la ruta sea correcta
 
     // Verificar si la inserción fue exitosa
     if ($res) {
-        echo "Producto registrado exitosamente.";
+//Redireccionando a la vista
+        header("location.../vistas/listaProductos.php");
+
+        // echo "Producto registrado exitosamente.";
     } else {
         echo "Error al registrar el producto: ";
     }

@@ -31,12 +31,12 @@
                   <li><a class="dropdown-item" href="crearEstudiante.php">Registro Estudiante</a></li>
                   <li><a class="dropdown-item" href="estudiante.php">Lista estudiante</a></li>
                   <li><a class="dropdown-item" href="formulario.php">Registro de Productos</a></li>
-                  <li><a class="dropdown-item" href="productos.php">Lista de Productos</a></li>
+                  <li><a class="dropdown-item" href="listaProductos.php">Lista de Productos</a></li>
                   <li><hr class="dropdown-divider"></li>  
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="practica3.html" tabindex="-1" aria-disabled="true">Practica 3</a>
+                <a class="nav-link" href="formulario.php" tabindex="-1" aria-disabled="false">Crear Producto</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" href="practica4.html" tabindex="-1" aria-disabled="true">Practica 4</a>
