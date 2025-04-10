@@ -18,6 +18,8 @@
     
     <div class="row">
         <table class="table">
+
+        
             <thead>
             <tr>
                 <th>Id</th>
@@ -29,6 +31,8 @@
                 <th>Codigo de Barra</th>
             </tr>
             </thead>
+
+
 
             <tbody>
 

@@ -26,7 +26,7 @@ include('../modelos/conexion.php'); // Asegúrate de que la ruta sea correcta
     // Verificar si la inserción fue exitosa
     if ($res) {
 //Redireccionando a la vista
-        header("location.../vistas/listaProductos.php");
+        header("location:../vistas/listaProductos.php");
 
         // echo "Producto registrado exitosamente.";
     } else {
