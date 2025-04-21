@@ -32,6 +32,8 @@
                   <li><a class="dropdown-item" href="estudiante.php">Lista estudiante</a></li>
                   <li><a class="dropdown-item" href="formulario.php">Registro de Productos</a></li>
                   <li><a class="dropdown-item" href="listaProductos.php">Lista de Productos</a></li>
+                  <li><a class="dropdown-item" href="formularioClientes.php">Registro de Clientes</a></li>
+                  <li><a class="dropdown-item" href="listaClientes.php">Lista Clientes</a></li>
                   <li><hr class="dropdown-divider"></li>  
                 </ul>
               </li>
