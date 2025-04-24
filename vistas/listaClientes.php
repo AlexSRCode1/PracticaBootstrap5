@@ -13,7 +13,7 @@
 </head>
 <body>
  <div class="container">
-    <h1> Lista de producto</h1>   
+    <h1> Lista de Clientes</h1>   
     
     
     <div class="row">

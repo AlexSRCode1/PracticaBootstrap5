@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Registro de Productos</title>
+    <title>Formulario de Registro de Clientes</title>
 
 
     <?php
@@ -17,7 +17,7 @@
 
 <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="col-md-6">
-        <h2 class="text-center">Formulario de Registro de Productos</h2>
+        <h2 class="text-center">Formulario de Registro de Clientes</h2>
         <form method="POST" action="../controladores/crearFormularioClientes.php" class="form-group">
 
 
