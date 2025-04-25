@@ -15,10 +15,11 @@ include('../modelos/conexion.php'); // Asegúrate de que la ruta sea correcta
     $cant = $_POST['cantidad'];
     $cost = $_POST['costo'];
     $code = $_POST['codigo_barras'];
+    $cat = $_POST['categoria'];
 
     // Preparar la consulta SQL
-    $query = "INSERT INTO productos (Producto, Descripcion, Fecha_Registro, Cantidad, Costo, Codigo_Barras)
-              VALUES ('$prod', '$descrip', '$fecha', '$cant', '$cost', '$code')";
+    $query = "INSERT INTO productos (Producto, Descripcion, Fecha_Registro, Cantidad, Costo, Codigo_Barras, Id_Categoria)
+              VALUES ('$prod', '$descrip', '$fecha', '$cant', '$cost', '$code', '$cat')";
 
     // Ejecutar la consulta
     $res = $conexion->query($query);
