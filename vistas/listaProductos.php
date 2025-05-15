@@ -13,8 +13,8 @@
 </head>
 <body>
  <div class="container">
-    <h1> Lista de producto</h1>   
-    
+    <h3> Lista de producto</h3>   
+    <a href="#" class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true"> Agregar Producto</a>
     
     <div class="row">
         <table class="table">
@@ -59,9 +59,15 @@
                     <td><?php echo $row['Codigo_Barras'] ?></td>
                     <td><?php echo $row['Id_Categoria'] ?></td>
                     <td class="text-center">
-                        <a href="eliminar/eliminarProducto.php?ide= <?php echo $row['IdProductos'];?>" 
+                        <a href="../controladores/eliminarProducto.php?ide= <?php echo $row['IdProductos'];?>" 
                         class="btn btn-xs btn-danger" data-toggle="tooltip" title="Eliminar" 
-                        <span class="fas fa-trash"></span>
+                        <span class="fas fa-trash">Eliminar</span>
+                        </a>
+
+
+                        <a href="../vistas/editarFrmProducto.php?ide= <?php echo $row['IdProductos'];?>" 
+                        class="btn btn-success" data-toggle="tooltip" title="Editar" 
+                        <span class="fas fa-trash">Actualizar</span>
                         </a>
                     </td>
                     </tr>
